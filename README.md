@@ -52,7 +52,7 @@ As requested by the new manager, i queried the six database tables (departments,
 
 ## Bonus analysis -
 Employing SQLAlchemy ORM, I was able to connect to PostgreSQL from Python and obtain employees data to create multiple (Pandas) dataframes to analyse the data. 
-First and foremost after creating the dataframes, i was able to determine 
+After creating the dataframes, i was able to determine 
 (a) the distribution of salary among the employees across the entire duration (from the 1980s and 1990s).
 
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Distribution%20of%20Salary%20across%20employees.png)
