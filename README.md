@@ -17,54 +17,37 @@ As requested by the new manager, i queried the six database tables (departments,
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%201.png)
 
 
+(2) List first name, last name, and hire date for employees who were hired in 1986.
 
-List first name, last name, and hire date for employees who were hired in 1986.
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%202.png)
 
+(3) List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
-List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%203.png)
 
+(4) List the department of each employee with the following information: employee number, last name, first name, and department name.
 
-List the department of each employee with the following information: employee number, last name, first name, and department name.
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%204.png)
 
+(5) List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
-List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%205.png)
 
+(6) List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-List all employees in the Sales department, including their employee number, last name, first name, and department name.
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%206.png)
 
+(7) List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%207.png)
 
+(8) List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
 
-List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
-
-
-
-Bonus (Optional)
-As you examine the data, you begin to suspect that the dataset is fake. Maybe your boss gave you spurious data in order to test the data engineering skills of a new employee? To confirm your hunch, you decide to create a visualization of the data to present to your boss. Follow these steps:
-
-
-Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the following code to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
-
-from sqlalchemy import create_engine
-engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-connection = engine.connect()
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%208.png)
 
 
-
-
-Consult the SQLAlchemy documentation for more information.
-
-
-If you’re using a password, do not upload your password to your GitHub repository. Review this video and the GitHub website for more information.
-
-
-
-
-Create a histogram to visualize the most common salary ranges for employees.
-
-
-Create a bar chart of average salary by title.
-
+### Additional files
+(1) The output files for all the above queries were exported as CSVs and included in the folder 'ProsgreSQL query output csv files' (https://github.com/fbrowther/SQL-Challenge/tree/main/ProsgreSQL%20query%20output%20csv%20files)
+(2) SQL script file (.sql) for the entire analysis is also included as (https://github.com/fbrowther/SQL-Challenge/blob/main/EmployeeSQL_scriptfile.sql)
 
 
