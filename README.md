@@ -14,6 +14,7 @@ As requested by the new manager, i queried the six database tables (departments,
 
 (1) List the following details of each employee: employee number, last name, first name, sex, and salary.
 
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%201.png)
 
 
 
