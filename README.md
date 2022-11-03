@@ -60,6 +60,9 @@ Employing SQLAlchemy ORM, I was able to connect to PostgreSQL from Python and wa
 
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Employees'%20earning%20based%20on%20Job%20title.png)
 
+## Conclusion(s) -
+Even though, distribution of salary among the employees seemed to follow a normal distribution (as in (a)), it was only after plotting the average salary earned by specific job titles (fig in (b)) it became clear to me that the salaries earned by employees doesnot match with the seniority of jobs they were on. Hence indicating that the dataset is fake and maybe my boss gave me some spurious data to test my data engineering skills as a new employee.
+
 
 ### Additional files
 (1) The output files for all the above queries were exported as CSVs and are included in the folder 'ProsgreSQL query output csv files' (https://github.com/fbrowther/SQL-Challenge/tree/main/ProsgreSQL%20query%20output%20csv%20files)
