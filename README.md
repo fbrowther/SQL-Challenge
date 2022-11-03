@@ -50,6 +50,16 @@ As requested by the new manager, i queried the six database tables (departments,
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Query%208.png)
 
 
+## Bonus analysis -
+Employing SQLAlchemy ORM, I was able to connect to PostgreSQL from Python and was able to determine 
+(a) the distribution of salary among the employees across the entire duration (from the 1980s and 1990s).
+
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Distribution%20of%20Salary%20across%20employees.png)
+
+(b) Average salary earned by those employees within a Job Title.
+
+![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Employees'%20earning%20based%20on%20Job%20title.png)
+
 ### Additional files
 (1) The output files for all the above queries were exported as CSVs and are included in the folder 'ProsgreSQL query output csv files' (https://github.com/fbrowther/SQL-Challenge/tree/main/ProsgreSQL%20query%20output%20csv%20files)
 (2) SQL script file (.sql) for the entire analysis is also included as (https://github.com/fbrowther/SQL-Challenge/blob/main/EmployeeSQL_scriptfile.sql)
