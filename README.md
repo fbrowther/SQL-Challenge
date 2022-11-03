@@ -51,7 +51,7 @@ As requested by the new manager, i queried the six database tables (departments,
 
 
 ### Additional files
-(1) The output files for all the above queries were exported as CSVs and included in the folder 'ProsgreSQL query output csv files' (https://github.com/fbrowther/SQL-Challenge/tree/main/ProsgreSQL%20query%20output%20csv%20files)
+(1) The output files for all the above queries were exported as CSVs and are included in the folder 'ProsgreSQL query output csv files' (https://github.com/fbrowther/SQL-Challenge/tree/main/ProsgreSQL%20query%20output%20csv%20files)
 (2) SQL script file (.sql) for the entire analysis is also included as (https://github.com/fbrowther/SQL-Challenge/blob/main/EmployeeSQL_scriptfile.sql)
 
 
