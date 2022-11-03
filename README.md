@@ -1,5 +1,5 @@
 # SQL Challenge
-As a new data engineer at Pewlett Hackard (a fictitious company), my first major task is on a research project that included querying a database to gather information about employees of the corporation from the 1980s and 1990s. All that remains of the database of employees from that period are six CSV files to carry out this project (https://github.com/fbrowther/SQL-Challenge/tree/main/EmployeeSQL%20).
+As a new data engineer at Pewlett Hackard (a fictitious company), my first major task was on a research project to gather information about employees of the corporation from the 1980s and 1990s. To carry out this project, all I had access to were six CSV files that are remains of the database of employees from that period (https://github.com/fbrowther/SQL-Challenge/tree/main/EmployeeSQL%20).
 
 # Data Modelling
 First and foremost, i inspected the CSV files at hand and sketched out an ERD (entity relatiobship diagram) of the data employing a free online tool (http://www.quickdatabasediagrams.com).
