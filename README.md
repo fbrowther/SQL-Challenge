@@ -7,7 +7,7 @@ First and foremost, i inspected the CSV files at hand and sketched out an ERD (e
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/ERD%20employeeSQL.png)
 
 # Data Engineering 
-Using the provide information, i created a table schema for each of the six CSV files and specified their data types, primary keys, foreign keys, and other constraints. Finally the CSV file was imported to the corresponding SQL table under the database named 'Employees' (on ProsgreSQL accessed using pgadmin4).
+Using the provided information, i created a table schema for each of the six CSV files and specified their data types, primary keys, foreign keys, and other constraints. Finally the CSV file was imported to the corresponding SQL table under the database named 'Employees' (on ProsgreSQL accessed using pgadmin4).
 
 # Data Cleaning
 On closer inspection, one of the CSV file (dept_emp) had lots of duplicate data for the employees; using Excel conditional formating i idetified all the duplicate data and removed them using 'remove duplicate' function. The clean file was then uploaded onto the database to create dept_emp table.
