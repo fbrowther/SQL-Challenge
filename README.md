@@ -7,7 +7,7 @@ First and foremost, i inspected the CSV files at hand and sketched out an ERD (e
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/ERD%20employeeSQL.png)
 
 # Data Engineering 
-Using the provided information, i created a table schema for each of the six CSV files and specified their data types, primary keys, foreign keys, and other constraints. Finally the CSV file was imported to the corresponding SQL table under the database named 'Employees' (on ProsgreSQL accessed using pgAdmin4).
+Using the provided information, i created a table schema for each of the six CSV files and specified their data types, primary keys, foreign keys, and other constraints. Finally the CSV file was imported to the corresponding SQL table under the database named 'EmployeesSQL' (on ProsgreSQL accessed using pgAdmin4).
 
 # Data Cleaning
 On closer inspection, one of the CSV file (dept_emp) had lots of duplicate data for the employees; using Excel conditional formating i idetified all the duplicate data and removed them using 'remove duplicate' function. The clean file was then uploaded onto the database to create dept_emp table.
@@ -62,7 +62,7 @@ After creating the dataframes, i was able to determine
 ![alt text](https://github.com/fbrowther/SQL-Challenge/blob/main/Results%20images/Employees'%20earning%20based%20on%20Job%20title.png)
 
 ## Conclusion(s) -
-Even though, distribution of salary among the employees seemed to follow a 'normal' distribution (as in (a)) with fewer people earning the highest salary compared to most earning mid to lower salaries; It was only after plotting the average salary earned by specific job titles (fig in (b)) it became clear that the salaries earned by employees doesnot match with the seniority of jobs they were on. Hence, indicating that the dataset is fake and maybe my boss gave some spurious data to test my data engineering skills as a new employee.
+Even though, distribution of salary among the employees seemed to follow a 'normal' distribution (as in (a)) with fewer people earning the highest salary compared to most earning mid to lower salaries; It was only after plotting the average salary earned by specific job titles (fig in (b)), it became apparent that the salaries earned by employees donot match the seniority of jobs they were on. Hence, indicating that the dataset is fake and maybe my boss gave some spurious data to test my data engineering skills as a new employee.
 
 
 ### Additional files
